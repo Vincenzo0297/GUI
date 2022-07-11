@@ -162,11 +162,11 @@ class GUI extends JFrame {
       });
 
     // Create actionlistener for bnNext
-	  bnNext.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				Next();
-			}
-		});    
+    bnNext.addActionListener(new ActionListener() {
+	public void actionPerformed(ActionEvent e) {
+	   Next();
+	 }
+      });    
   }
 
   private void Previous() { //To read pervious data
